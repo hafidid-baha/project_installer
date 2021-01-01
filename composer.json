@@ -1,0 +1,26 @@
+{
+    "name": "hafid/project_installer",
+    "description": "A Simple Laravel Package To Help You Setup Your App",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hafid Id-baha",
+            "email": "hafid.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "hafid\\project_installer\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hafid\\project_installer\\Providers\\ProjectInstallerProvider"
+            ]
+        }
+    }
+}
