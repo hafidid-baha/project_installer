@@ -184,7 +184,6 @@ class InstallController extends Controller
         // Save installation
         touch(storage_path('installed'));
 
-        return redirect()->route('home')
-            ->with('success', 'Installation finished successfully');
+        return redirect("/");
     }
 }
