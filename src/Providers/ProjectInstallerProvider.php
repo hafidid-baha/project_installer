@@ -30,7 +30,7 @@ class ProjectInstallerProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/installer.php' => config_path('installer.php'),
             __DIR__ . '/../http/middleware/IsInstalled.php' => app_path('Http/Middleware/IsInstalled.php'),
-            __DIR__ . '/../resources/css/install.css' => resource_path('css/install.css'),
+            __DIR__ . '/../resources/css/install.css' => public_path('css/install.css'),
         ], 'all');
 
         // to load your routes

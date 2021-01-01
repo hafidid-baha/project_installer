@@ -1,6 +1,6 @@
 <?php
 
-namespace hafid\project_installer\http\Controller;
+namespace hafid\project_installer\http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
